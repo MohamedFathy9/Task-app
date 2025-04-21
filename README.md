@@ -1,27 +1,25 @@
-# Debugging
+# Easy Task
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.0.0.
+**Easy Task** is a simple and efficient task management web application built with **Angular**. It allows users to switch between different users and manage their personal tasks seamlessly. The application stores all task data using the browser’s **local storage**, ensuring persistence across sessions.
 
-## Development server
+## Features
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+- 🔄 **User Switching**: Select from multiple users to view and manage individual task lists.
+- ➕ **Add Tasks**: Add new tasks with a specified due date.
+- ✅ **Delete Tasks**: Easily delete tasks once they are marked as completed.
+- 💾 **Persistent Storage**: All data is stored in **Local Storage** and persists even after page reloads.
+- 📅 **Task Scheduling**: Each task can be assigned a specific date for better organization.
 
-## Code scaffolding
+## Technologies Used
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **Angular 18.0.0** – For building the frontend with components and services.
+- **HTML & CSS** – For the structure and design of the UI.
+- **Local Storage API** – To save and retrieve tasks without a backend.
 
-## Build
+## Getting Started
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+### Clone the repository
 
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+```bash
+git clone https://github.com/MohamedFathy9/easy-task.git
+cd easy-task
